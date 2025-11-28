@@ -1,0 +1,4 @@
+spacy>=3.7.0
+dateparser>=1.2.0
+nltk>=3.9
+striprtf>=0.0.26
