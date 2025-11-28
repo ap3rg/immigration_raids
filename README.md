@@ -65,7 +65,7 @@ Each `raid_analysis` entry has `locations` (a list of strings) and `arrest_count
         
     - any numeric arrest counts from `raid_analysis[*].arrest_counts[*].value`.
         
-4. Deduplicate raids using **Option A**: two mentions are the same raid if they share the same normalized primary location and the same raid date (or same approximate date after your earliest-date rule).
+4. Deduplicate raids using the following deduplication criteria: two mentions are the same raid if they share the same normalized primary location and the same raid date (or same approximate date after your earliest-date rule).
     
 5. For each deduped raid, output one row with:
     
